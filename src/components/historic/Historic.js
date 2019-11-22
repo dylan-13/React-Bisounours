@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Galerie() {
+function Historic() {
   return (
       <>
     </>
   );
 }
-export default Galerie;
+export default Historic;
