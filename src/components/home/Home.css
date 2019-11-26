@@ -1,0 +1,32 @@
+h2.title{
+    font-family: 'Kaushan Script', cursive;
+    color: purple;
+    text-align: center;
+    font-size: 3vw!important;
+    font-weight: 700;
+    background-image: url('../../img/rainbow.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border: solid yellow;
+    margin: 0px!important;
+}
+
+.side {
+    background: #17B0A7;
+    text-align: center;
+}
+
+.bear {
+    background: #FF99D0;
+    margin: 10px 0px;
+}
+
+.bear:first-child {
+    margin-top: 0px;
+}
+
+.main{
+    padding:0px!important;
+    background: rgb(255, 194, 64);
+}

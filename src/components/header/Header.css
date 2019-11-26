@@ -1,22 +1,3 @@
-body,
-html {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(255, 194, 64);
-    font-family: inherit;
-    height: 100%;
-}
-.ml2 {
-    font-weight: 900;
-    font-size: 1.7vw;
-    color: purple;
-  }
-  
-  .ml2 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
-
 img {
     background-size: cover;
     width: 100%;
@@ -24,21 +5,29 @@ img {
     background-position: center;
 }
 
-header {
+.navbar {
     background-color: #17B0A7;
+    font-size: 2vw;
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar a, .navbar a:hover {
+    padding: 0px 80px!important;
+    color: white;
+    text-decoration: underline;
 }
 
-h1 {
+h1.title {
     font-family: 'Kaushan Script', cursive;
     color: purple;
     text-align: center;
+    font-size: 6vw!important;
+    font-weight: 700;
     background-image: url('../../img/rainbow.jpg');
-    font-size: 6vw;
     background-position: center;
     background-size: cover;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: auto;
     border: solid yellow;
+    border-radius: 5px;
 }
 
 h2 {
@@ -57,270 +46,3 @@ h3 {
     color: purple;
 }
 
-nav {
-    border-bottom: 10px solid #17B0A7;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-
-nav ul {
-    border: solid #17B0A7;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #17B0A7;
-    height: 40px;
-}
-
-nav li {
-    list-style: none;
-    font-size: 2vw;
-    padding: 8vw;
-    display: inline;
-}
-
-nav a {
-    font-family: 'Kaushan Script', cursive;
-    color: white;
-}
-
-.sidenavleft {
-    border: solid #17B0A7;
-    float: left;
-    margin-top: 0;
-    width: 20%;
-    position: relative;
-    background-color: #FF99D0;
-}
-
-.sidenavright {
-    border: solid #17B0A7;
-    float: right;
-    margin-top: 0;
-    width: 20%;
-    position: relative;
-    background-color: #FF99D0;
-
-}
-
-.sidenavleft a,
-.sidenavright a {
-    border: solid #17B0A7;
-    text-decoration: none;
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    display: block;
-}
-
-.titre {
-    width: 100%;
-    font-size: 3vw;
-}
-
-.presentation {
-    margin-top: -1.2%;
-    margin-left: 20%;
-    width: 80%;
-    font-size: 25px;
-    text-align: center;
-}
-
-.texte {
-    font-size: 1.7vw;
-    color: purple;
-}
-
-.img-acceuil {
-    max-width: 35%;
-    max-height: 500px;
-    margin-left: 13%;
-    border: solid 10px purple;
-    box-shadow: 7px 7px 7px purple;
-}
-
-.intro {
-    text-align: center;
-
-    margin: 50px;
-}
-#open-modal {
-    margin-top: 1em;
-    margin-left: 15em;
-    background: purple;
-    color: #FF99D0;
-    border: transparent;
-    border-radius: 4px;
-    font-size: 1.5rem;    
-  }
-#close-modal {
-    margin-left: 12.5em;
-    margin-top: 2em;
-    background: purple;
-    color: #FF99D0;
-    border: transparent;
-    border-radius: 4px;
-    font-size: 1.5rem;  
-}
-  
-  .modal {
-    position: relative;
-    top: 0;
-    left: 4.5em;
-    width: 100%;
-    height: 100%;
-    display: none;
-  }
-  .modal-inner {
-    margin-top: 30px;
-  }
- .dieux {
-     width: 25%;
-     height: 25%;
-     display: inline;
-     flex-direction: row;
-     justify-content: space-around;
- } 
-.historique {
-    font-size: 1.4vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-around;
-}
-
-.historique p {
-    width: 60%;
-    text-align: center;
-    color: purple;
-}
-
-.gallerie {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
-
-}
-
-.gallerie img {
-    max-width: 35%;
-    height: auto;
-    margin: 20px;
-    border: solid purple 2px;
-}
-
-.video {
-
-    max-width: 35%;
-    position: absolute;
-    top: 85%;
-    left: 33%;
-
-}
-
-p {
-    color: purple;
-    font-size: 1.5vw;
-}
-
-#join {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form {
-    color: purple;
-    width: 60%;
-    margin: 100px;
-}
-
-legend {
-    color: #17B0A7;
-    font-size: 1.5vw;
-}
-
-input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #178FB0;
-}
-
-textarea {
-    width: 100%;
-    height: 180px;
-    box-sizing: border-box;
-    border: 2px solid #178FB0;
-    border-radius: 4px;
-    resize: none;
-    padding: 12px 20px;
-    margin: 8px 0;
-}
-
-.bouton {
-    width: 30%;
-    font-size: 1.5vw;
-    color: purple;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer {
-    background-color: #17B0A7;
-    text-align: justify;
-    background-color: #17B0A7;
-    margin-left: 20%;
-    list-style: none;
-    font-size: 20px;
-    width: 60%;
-    height: 55px;
-    text-align: justify;
-    background-color: #17B0A7;
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-}
-
-footer a {
-    font-family: 'Kaushan Script', cursive;
-    color: white;
-    margin: 50px;
-    font-size: 40px;
-}
-
-#contenu {
-    position: absolute;
-}
-
-audio {
-    position: absolute;
-    top: 96%;
-    left: 40%;
-}
-
-#drogues {
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 115%;
-    left: 25%;
-}
-.bears{
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-}
-
-.texte{
-    font-size: 1.7vw;
-    color: purple;
-
-}
