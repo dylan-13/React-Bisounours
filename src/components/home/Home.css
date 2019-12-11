@@ -11,6 +11,11 @@ h2.title{
     border: solid yellow;
     margin: 0px!important;
 }
+h2.titleBear{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2vw!important;
+    font-weight: 700;
+}
 
 .side {
     background: #17B0A7;
@@ -20,6 +25,13 @@ h2.title{
 .bear {
     background: #FF99D0;
     margin: 10px 0px;
+}
+
+button.btn {
+    color: #17B0A7;
+    background: yellow;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .bear:first-child {
