@@ -100,17 +100,17 @@ export default class Home extends React.Component {
                         <p>
                         Nom : Grosdodo ou Bedtime Bear (Ours de l'heure du coucher) ou Dodonours
 
-Couleur : bleu
+                        Couleur : bleu
 
-Symbole : croissant de lune auquel est accroché une étoile
+                        Symbole : croissant de lune auquel est accroché une étoile
 
-Caractéristiques :
+                        Caractéristiques :
 
-Il aime dormir et somnole toute la journée alors qu’il se montre éveillé et courageux la nuit. Il veille à ce que nos nuits soient paisibles et nos rêves agréables. Sa meilleure amie est Grostaquin et il aide Groscopain à ne plus craindre l’obscurité.
+                        Il aime dormir et somnole toute la journée alors qu’il se montre éveillé et courageux la nuit. Il veille à ce que nos nuits soient paisibles et nos rêves agréables. Sa meilleure amie est Grostaquin et il aide Groscopain à ne plus craindre l’obscurité.
 
-Sexe : masculin
+                        Sexe : masculin
 
-Devise :Dormir est ce que je fais de mieux.
+                        Devise :Dormir est ce que je fais de mieux.
                         </p>
                     </Modal>
                 </div>
