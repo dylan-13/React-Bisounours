@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import headerPic from '../../img/14.jpg';
+import headerPic from '../../img/16.jpg';
 import "./Header.css"
 
 const Header = () => {
