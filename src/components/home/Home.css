@@ -3,22 +3,23 @@ div.container-fluid {
 }
 
 
-h2.title{
+h2.title {
     font-family: 'Kaushan Script', cursive;
     color: purple;
     text-align: center;
-    font-size: 3vw!important;
+    font-size: 3vw !important;
     font-weight: 700;
     background-image: url('../../img/rainbow.jpg');
     background-position: center;
     background-size: cover;
     margin: auto;
     border: solid yellow;
-    margin: 0px!important;
+    margin: 0px !important;
 }
-h2.titleBear{
+
+h2.titleBear {
     font-family: 'Kaushan Script', cursive;
-    font-size: 2vw!important;
+    font-size: 2vw !important;
     font-weight: 700;
 }
 
@@ -44,8 +45,8 @@ button.btn {
     margin-top: 0px;
 }
 
-.main{
-    padding:0px!important;
+.main {
+    padding: 0px !important;
     background: rgb(255, 194, 64);
 }
 
@@ -59,4 +60,10 @@ div.main {
 p {
     font-family: 'Kaushan Script', cursive;
     font-size: 1.4vw;
+    text-align: justify;
+
+}
+
+p.main-body {
+    padding: 20px 10%;
 }

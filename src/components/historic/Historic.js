@@ -10,8 +10,8 @@ const Historic = () => {
             <div className="row">
                 <SidebarLeft />
                 <div className="col-8 main">
-                    <h2 className='title'>L'Histoire de la creation de notre monde</h2>
-                    <p>
+                    <h2 className='title'>Historique</h2>
+                    <p className='main-body'>
                         Elena Kurcharik Artiste accomplie, elle est la première illustratrice qui a créé les Bisounours dans les
                         années 80. Elle illustre maintenant "The Little Blessings", livres pour enfants aux éditions Tyndale.
                         Les Bisounours sont apparus en 1981 sur des cartes de vœux commercialisés par la société American
@@ -37,11 +37,8 @@ const Historic = () => {
                         Entre temps, les cousins des Bisounours vivant dans la Forêt Toutamour (Forest of feeling) ont été
                         découvert. Les cousins ne sont pas des ours mais ils ont le même rôle que les Bisounours.
                 <br /><br />
-                        La traduction québécoise des noms est souvent plus proche que celle française. Mais pour les Bisounours
-                        les plus récents, il n'y a pas de traduction.
-                <br /><br />
                         Rapide historique :
-                <br /><br />
+                <br />
                         Les Bisounours sont apparus en 1981 sur des cartes de vœux commercialisés par la société American
                         Greetings. Leur succès aboutit à la création de dessins animés (1983), de films, de peluches (1983 ; les
                         Bisounours ont sur la cuisse droite un cœur avec écrit « Care Bears » et « Care Bears Cousins » pour
@@ -72,7 +69,6 @@ const Historic = () => {
                         Aujourd'hui Le mot bisounours désigne des Personne trop gentille, naïve, qui vit dans un monde parfait,
                         utopique.
                         Exemple : Elle vit dans le monde des Bisounours.
-                <br /><br />
                     </p>
                 </div>
                 <SidebarRight />

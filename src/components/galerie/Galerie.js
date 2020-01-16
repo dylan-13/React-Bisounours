@@ -10,8 +10,8 @@ const Galerie = () => {
             <div className="row">
                 <SidebarLeft />
                 <div className="col-8 main">
-                    <h2 className='title'>L'Histoire de la creation de notre monde</h2>
-                    <p>Ecrire ici</p>
+                    <h2 className='title'>Galerie</h2>
+                    <p className='main-body'>Ecrire ici</p>
                 </div>
                 <SidebarRight />
             </div>
